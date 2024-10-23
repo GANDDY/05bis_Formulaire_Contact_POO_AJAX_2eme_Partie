@@ -80,13 +80,13 @@
     
     <!-- ___________________________________________liste des contactes -->
 
-    <!-- <?php
+    <?php
     require "contact.php";
     $contact = new Contact();
     $contact = $contact->affiche_tous();
 
-    ?> -->
-<!-- 
+    ?>
+
     <table class="table table-striped table-bordered  mt-5">
         <tr>
             <th class="text-center">ID CONTACT</th>
@@ -110,7 +110,7 @@
     }
      ?>
 </table>
- -->
+ 
 
 
     <script src="js/jQuery v3.7.1.js"></script>
