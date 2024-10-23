@@ -93,10 +93,7 @@ class Contact
                 $erreurs['text'] = 'Vous devez saisir un Message !!';
                 
             }
-            if (!empty($erreurs)) {
-                // echo json_encode($erreurs);
-                // return $erreurs;
-            }
+          
         }
         return $erreurs;
     }
