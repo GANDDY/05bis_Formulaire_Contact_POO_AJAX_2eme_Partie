@@ -62,8 +62,8 @@ $(document).ready(function () {
             type: 'POST',
             url: 'proces.php',
             data: JSON.stringify(formData),
-            contentType: 'application/json', // Indiquer que nous envoyons du JSON
-            // dataType: 'json',
+            contentType: 'application/json; charset=UTF-8', // Indiquer que nous envoyons du JSON
+            dataType: 'json',
             success: function (response) {
                 console.table(response);
                 console.table(response.no_repeat);

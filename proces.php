@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json'); // Indique que le serveur renvoie du JSON
+header('Content-Type: application/json; charset=UTF-8'); // Indique que le serveur renvoie du JSON
 
 require_once "contact.php";
 
