@@ -14,7 +14,6 @@ function test_input($data)
 {
     $data = trim($data);
     $data = stripslashes($data);
-    // $data = htmlentities($data);
     $data = htmlspecialchars($data);
     return $data;
 }
@@ -61,12 +60,6 @@ if (isset($nom) && isset($prenom) && isset($email) && isset($text)) {
     }
 }
 
-
-
-
-
-// header('Content-Type: application/json'); // Indiquer que le contenu est au format JSON
-// echo json_encode($response);
 
 
 ?>
